@@ -1,17 +1,9 @@
-import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
-import { FeaturedProducts } from "@/components/featured-products"
-import { Features } from "@/components/features"
-import { Footer } from "@/components/footer"
-
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <Features />
-      <FeaturedProducts />
-      <Footer />
+      <div className="flex items-center justify-center h-screen">
+        <h1 className="text-4xl font-bold text-gray-800">Coming Soon</h1>
+      </div>
     </main>
   )
 }
